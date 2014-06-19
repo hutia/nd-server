@@ -1,0 +1,38 @@
+{
+  "name": "hutia-nd-server",
+  "version": "0.0.2",
+  "description": "Hutia's node server based on express and socket.io",
+  "main": "index",
+  "dependencies": {
+    "npm": "^1.4.14",
+	"express" : ">= 4.4.0",
+	"socket.io" : ">= 1.0.0",
+	"connect" : ">= 2.19.0"
+  },
+  "engines" : {
+	"node" : ">= 0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hutia/nd-server.git"
+  },
+  "keywords": [
+    "hutia",
+    "nodejs",
+    "server",
+    "socket"
+  ],
+  "author": {
+	"name" : "hutia",
+	"email" : "hutia2@163.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hutia/nd-server/issues"
+  },
+  "homepage": "https://github.com/hutia/nd-server"
+}
